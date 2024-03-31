@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo corazon mio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Bienvenido al Juego del Dinosaurio</h1>
+        <button onclick="startGame()">Comenzar</button>
+    </div>
+
+    <div id="game-container">
+        <div id="dinosaurio"></div>
+    </div>
+
+    <div id="game-over-screen">
+        <h1>¡Perdiste!</h1>
+        <p>Tu puntaje es: <span id="score"></span></p>
+        <button onclick="restartGame()">Nueva partida</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
